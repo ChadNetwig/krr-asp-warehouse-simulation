@@ -6,9 +6,9 @@ Solves the **ASP Challenge Problem: Automated Warehouse Scenario** using Answer 
 
 ## 📖 Overview
 
-This project was developed as part of **CSE 579 – Knowledge Representation and Reasoning** at Arizona State University.
+The following is the implementation for the **Automated Warehouse Scenario**, details about which can be found in the [ASP Challenge 2019](https://sites.google.com/view/aspcomp2019/problem-domains).
 
-It models the well-known **Automated Warehouse Scenario** from the [ASP Competition Challenge Problem](https://aspcomp.github.io/) where multiple robots must navigate a constrained grid to move shelves and fulfill orders using only logic rules and declarative programming.
+It models a constrained warehouse environment where multiple robots must deliver product shelves to picking stations using logic rules and declarative programming.
 
 All warehouse behavior is encoded in logic rules, using `init(...)` atoms for setup and `occurs(...)` atoms for action planning.
 
@@ -34,7 +34,7 @@ All warehouse behavior is encoded in logic rules, using `init(...)` atoms for se
 
 **Warehouse Planning Output**
 
-<img src="./assets/warehouse_layout.png" alt="Warehouse plan output" width="500"/>
+<img src="./assets/warehouse_layout.png" alt="Warehouse plan output" width="600"/>
 
 _Shows the robots' coordinated actions across time steps on a 4×4 warehouse grid._
 
